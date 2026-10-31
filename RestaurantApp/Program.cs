@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -28,6 +29,8 @@ namespace RestaurantApp
             var avg = restaurants.Average(x => x.point);
             Console.WriteLine($"Total is {amount}");
             Console.WriteLine($"Average is {avg}");
+
+            Console.WriteLine("End");
         }
         public class Restaurant
         {
